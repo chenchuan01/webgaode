@@ -56,7 +56,7 @@
 			<!-- SIMPLE DESC -->
 			<div class="panel panel-default">
 			  <div class="panel-body">
-			  	<h3><span class="label label-primary arrow-in">校园简介 <i class="fa fa-picture-o"></i></span></h3>
+			  	<h3><span class="label label-primary arrow-in">校园简介 <i class="fa fa-align-left"></i></span></h3>
 				<div class="divide-20"></div>
 				<div class="row">
 					<div class="col-md-12 well">
@@ -92,91 +92,38 @@
 				<div class="box-title">
 					<h3><span class="label label-primary arrow-in">分校风采<i class="fa fa-camera-retro"></i></span></h3>
 					<div class="tools">
-						<a href="#box-config" data-toggle="modal" class="config">
-							<i class="fa fa-cog"></i>
-						</a>
-						<a href="javascript:;" class="reload">
-							<i class="fa fa-refresh"></i>
-						</a>
 						<a href="javascript:;" class="collapse">
 							<i class="fa fa-chevron-up"></i>
-						</a>
-						<a href="javascript:;" class="remove">
-							<i class="fa fa-times"></i>
 						</a>
 					</div>
 				</div>
 				<div class="box-body clearfix">
 				   <div id="filter-controls" class="btn-group">
 					  <div class="hidden-xs">
-						  <a href="javascript:;" class="btn btn-default" data-filter="*">All</a>
-						  <a href="javascript:;" class="btn btn-info" data-filter=".category_1">Android Apps</a>
-						  <a href="javascript:;" class="btn btn-danger" data-filter=".category_2">iPhone Apps</a>
-						  <a href="javascript:;" class="btn btn-success" data-filter=".category_3">Windows Apps</a>
-						  <a href="javascript:;" class="btn btn-warning" data-filter=".category_4">Web Apps</a>
+						  <a href="javascript:;" class="btn btn-default" data-filter="*">全部</a>
+						  <a href="javascript:;" class="btn btn-info" data-filter=".category_1">朝晖校区</a>
+						  <a href="javascript:;" class="btn btn-danger" data-filter=".category_2">屏峰校区</a>
+						  <a href="javascript:;" class="btn btn-success" data-filter=".category_3">之江校区</a>
 					  </div>
 					  <div class="visible-xs">
 						   <select id="e1" class="form-control">
-								<option value="*">All</option>
-								<option value=".category_1">Android Apps</option>
-								<option value=".category_2">iPhone Apps</option>
-								<option value=".category_3">Windows Apps</option>
-								<option value=".category_4">Web Apps</option>
+								<option value="*">全部</option>
+								<option value=".category_1">朝晖校区</option>
+								<option value=".category_2">屏峰校区</option>
+								<option value=".category_3">之江校区</</option>
 							</select>
 					  </div>
 				   </div>
 					<div id="filter-items" class="row">
 						<div class="col-md-3 category_1 item">
 							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/1.png" alt="" class="img-responsive" />
+								<img src="${ctx}/static/img/gallery/1.jpg" alt="" class="img-responsive" />
 								<div class="hover-content">
-									<h4>Image Title</h4>
+									<h4>朝晖校区</h4>
 									<a class="btn btn-success hover-link">
 										<i class="fa fa-edit fa-1x"></i>
 									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/1.png" title="Image Title">
-										<i class="fa fa-search-plus fa-1x"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 category_2 item">
-							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/2.jpg" alt="" class="img-responsive" />
-								<div class="hover-content">
-									<h4>Image Title</h4>
-									<a class="btn btn-success hover-link">
-										<i class="fa fa-edit fa-1x"></i>
-									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/2.jpg" title="Image Title">
-										<i class="fa fa-search-plus fa-1x"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 category_3 item">
-							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/3.png" alt="" class="img-responsive" />
-								<div class="hover-content">
-									<h4>Image Title</h4>
-									<a class="btn btn-success hover-link">
-										<i class="fa fa-edit fa-1x"></i>
-									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/3.png" title="Image Title">
-										<i class="fa fa-search-plus fa-1x"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 category_4 item">
-							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/4.png" alt="" class="img-responsive" />
-								<div class="hover-content">
-									<h4>Image Title</h4>
-									<a class="btn btn-success hover-link">
-										<i class="fa fa-edit fa-1x"></i>
-									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/4.png" title="Image Title">
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/1.jpg" title="朝晖校区">
 										<i class="fa fa-search-plus fa-1x"></i>
 									</a>
 								</div>
@@ -184,13 +131,55 @@
 						</div>
 						<div class="col-md-3 category_1 item">
 							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/5.png" alt="" class="img-responsive" />
+								<img src="${ctx}/static/img/gallery/2.jpg" alt="" class="img-responsive" />
 								<div class="hover-content">
-									<h4>Image Title</h4>
+									<h4>朝晖校区</h4>
 									<a class="btn btn-success hover-link">
 										<i class="fa fa-edit fa-1x"></i>
 									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/5.png" title="Image Title">
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/2.jpg" title="朝晖校区">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_1 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/3.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>朝晖校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/3.jpg" title="朝晖校区">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_1 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/4.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>朝晖校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/4.jpg" title="朝晖校区">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_1 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/5.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>朝晖校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/5.jpg" title="朝晖校区">
 										<i class="fa fa-search-plus fa-1x"></i>
 									</a>
 								</div>
@@ -198,23 +187,23 @@
 						</div>
 						<div class="col-md-3 category_2 item">
 							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/8.png" alt="" class="img-responsive" />
+								<img src="${ctx}/static/img/gallery/6.jpg" alt="" class="img-responsive" />
 								<div class="hover-content">
-									<h4>Image Title</h4>
+									<h4>屏峰校区</h4>
 									<a class="btn btn-success hover-link">
 										<i class="fa fa-edit fa-1x"></i>
 									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/8.png" title="Image Title">
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/6.jpg" title="Image Title">
 										<i class="fa fa-search-plus fa-1x"></i>
 									</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 category_4 item">
+						<div class="col-md-3 category_2 item">
 							<div class="filter-content">
 								<img src="${ctx}/static/img/gallery/7.jpg" alt="" class="img-responsive" />
 								<div class="hover-content">
-									<h4>Image Title</h4>
+									<h4>屏峰校区</h4>
 									<a class="btn btn-success hover-link">
 										<i class="fa fa-edit fa-1x"></i>
 									</a>
@@ -224,15 +213,113 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 category_4 item">
+						<div class="col-md-3 category_2 item">
 							<div class="filter-content">
-								<img src="${ctx}/static/img/gallery/2.jpg" alt="" class="img-responsive" />
+								<img src="${ctx}/static/img/gallery/8.jpg" alt="" class="img-responsive" />
 								<div class="hover-content">
-									<h4>Image Title</h4>
+									<h4>屏峰校区</h4>
 									<a class="btn btn-success hover-link">
 										<i class="fa fa-edit fa-1x"></i>
 									</a>
-									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/2.jpg" title="Image Title">
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/8.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_2 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/12.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>屏峰校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/12.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_2 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/10.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>屏峰校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/10.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_3 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/11.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>之江校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/11.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_3 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/9.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>之江校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/9.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_3 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/13.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>之江校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/13.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_3 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/14.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>之江校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/14.jpg" title="Image Title">
+										<i class="fa fa-search-plus fa-1x"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 category_3 item">
+							<div class="filter-content">
+								<img src="${ctx}/static/img/gallery/15.jpg" alt="" class="img-responsive" />
+								<div class="hover-content">
+									<h4>之江校区</h4>
+									<a class="btn btn-success hover-link">
+										<i class="fa fa-edit fa-1x"></i>
+									</a>
+									<a class="btn btn-warning hover-link colorbox-button" href="${ctx}/static/img/gallery/15.jpg" title="Image Title">
 										<i class="fa fa-search-plus fa-1x"></i>
 									</a>
 								</div>

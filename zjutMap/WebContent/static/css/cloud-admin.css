@@ -10,6 +10,12 @@
 .validYesBorder{
 	border-color:#79c447!important;
 }
+.blowup{
+	position:absolute;
+	right:18px;
+	bottom:18px;
+	font-size: 20px;
+}
 .validMsg {
 	color: #ff5454;
 	word-wrap: break-word;

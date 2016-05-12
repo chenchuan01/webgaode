@@ -98,6 +98,8 @@
 		</div>
 	</section>
 	<!--/PAGE -->
+	
+	
 	<%@include file="base/basef.jspf" %>
 	<!-- TABLE CLOTH -->
 	<script type="text/javascript" src="${ctx }/static/js/tablecloth/js/jquery.tablecloth.js"></script>
