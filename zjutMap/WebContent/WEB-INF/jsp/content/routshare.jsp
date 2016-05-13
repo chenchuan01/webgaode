@@ -5,6 +5,38 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<div class="row">
+			   <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail">
+			      <img src="${ctx}/static/img/gallery/img/PF_WLGC.jpg" alt="查看地图" style="width: 250px;height: 200px">
+			      <div class="caption">
+			        <h4>
+			        	屏峰校区
+			        	<i class="fa fa-arrow-circle-right"></i>
+			        	武林广场
+			        </h4>
+			        <a href="javascript:;" class="btn btn-link blowup"
+			        	onclick="lineBlowUp('浙工大屏峰校区','武林广场','PF_WLGC.jpg')">
+			        	<i class="fa fa-arrows-alt" data-toggle="tooltip" data-placement="top" title="查看详细"></i>
+			        </a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail">
+			      <img src="${ctx}/static/img/gallery/img/PF_XS.jpg" alt="查看地图" style="width: 250px;height: 200px">
+			      <div class="caption">
+			        <h4>
+			        	屏峰校区
+			        	<i class="fa fa-arrow-circle-right"></i>
+			        	下沙高教园区
+			        </h4>
+			        <a href="javascript:;" class="btn btn-link blowup"
+			        	onclick="lineBlowUp('浙工大屏峰校区','下沙高教园区','PF_XS.jpg')">
+			        	<i class="fa fa-arrows-alt" data-toggle="tooltip" data-placement="top" title="查看详细"></i>
+			        </a>
+			      </div>
+			    </div>
+			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
 			      <img src="${ctx}/static/img/gallery/img/PF_HCD.jpg" alt="查看地图" style="width: 250px;height: 200px">
@@ -64,6 +96,38 @@
 			        </h4>
 			        <a href="javascript:;" class="btn btn-link blowup"
 			        	onclick="lineBlowUp('浙工大屏峰校区','杭州动物园','PF_ZOOM.jpg')">
+			        	<i class="fa fa-arrows-alt" data-toggle="tooltip" data-placement="top" title="查看详细"></i>
+			        </a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail">
+			      <img src="${ctx}/static/img/gallery/img/ZH_XS.jpg" alt="查看地图" style="width: 250px;height: 200px">
+			      <div class="caption">
+			        <h4>
+			        	朝晖校区
+			        	<i class="fa fa-arrow-circle-right"></i>
+			        	下沙高教园区
+			        </h4>
+			        <a href="javascript:;" class="btn btn-link blowup"
+			        	onclick="lineBlowUp('浙工大朝晖校区','下沙高教园区','ZH_XS.jpg')">
+			        	<i class="fa fa-arrows-alt" data-toggle="tooltip" data-placement="top" title="查看详细"></i>
+			        </a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail">
+			      <img src="${ctx}/static/img/gallery/img/ZH_HCD.jpg" alt="查看地图" style="width: 250px;height: 200px">
+			      <div class="caption">
+			        <h4>
+			        	朝晖校区
+			        	<i class="fa fa-arrow-circle-right"></i>
+			        	火车东站
+			        </h4>
+			        <a href="javascript:;" class="btn btn-link blowup"
+			        	onclick="lineBlowUp('浙工大朝晖校区','火车东站','ZH_HCD.jpg')">
 			        	<i class="fa fa-arrows-alt" data-toggle="tooltip" data-placement="top" title="查看详细"></i>
 			        </a>
 			      </div>

@@ -33,7 +33,7 @@
 					<li class="dropdown">
 						<a href="javascript:;" onclick="pageView('${ctx}/home/viewdesc.do')" class="dropdown-toggle" data-toggle="dropdown">
 							<i class="fa fa-picture-o"></i>
-							<span class="name">工大风光</span>
+							<span class="name">屏峰校园</span>
 						</a>
 					</li>
 					<li class="dropdown">
@@ -109,7 +109,7 @@
 			App.setPage("simple_table");  //Set current page
 			App.init(); //Initialise plugins and elements
 			
-			pageView('${ctx}/home/navmap.do')//Frist Page
+			pageView('${ctx}/home/navmap.do');//Frist Page
 		});
 	</script>
 	<!-- /JAVASCRIPTS -->

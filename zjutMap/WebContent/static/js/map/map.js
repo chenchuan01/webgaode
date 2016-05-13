@@ -3,22 +3,22 @@ var MapApp = function(contentId,panelId,initZoom){
 	var init = function(){
 		var mapObj =new AMap.Map(contentId, {
 	        resizeEnable: true,
-	        center: [120.165711, 30.293286],//地图中心点
-	        zoom: initZoom //地图显示的缩放级别
+	        center: [120.038201,30.226134],//鍦板浘涓績鐐�
+	        zoom: initZoom //鍦板浘鏄剧ず鐨勭缉鏀剧骇鍒�
 	    });
 		this.map = mapObj;
 	};
-	//步行导航
+	//姝ヨ瀵艰埅
 	function walking(from,to) {
 		loadToggle();
 		clearMap();
-	    //步行导航
+	    //姝ヨ瀵艰埅
 	    AMap.service(["AMap.Walking"], function() {
 	        var MWalk = new AMap.Walking({
 	            map: this.map,
 	            panel: panelId
-	        }); //构造路线导航类
-	        //根据起终点坐标规划步行路线
+	        }); //鏋勯�璺嚎瀵艰埅绫�
+	        //鏍规嵁璧风粓鐐瑰潗鏍囪鍒掓琛岃矾绾�
 	        MWalk.search([
 	            {keyword: from,city:MapUtil.getCity()},
 	            {keyword: to,city:MapUtil.getCity()}
@@ -29,7 +29,7 @@ var MapApp = function(contentId,panelId,initZoom){
 	    });
 	    
 	}
-	//公交导航
+	//鍏氦瀵艰埅
 	function bus(from,to) {
 		loadToggle();
 		clearMap();
@@ -37,12 +37,12 @@ var MapApp = function(contentId,panelId,initZoom){
 		        var transOptions = {
 		            map: this.map,
 		            city:MapUtil.getCity(),
-		            panel:panelId,                            //公交城市
-		            policy: AMap.TransferPolicy.LEAST_TIME //乘车策略
+		            panel:panelId,                            //鍏氦鍩庡競
+		            policy: AMap.TransferPolicy.LEAST_TIME //涔樿溅绛栫暐
 		        };
-		        //构造公交换乘类
+		        //鏋勯�鍏氦鎹箻绫�
 		        var trans = new AMap.Transfer(transOptions);
-		        //根据起、终点坐标查询公交换乘路线
+		        //鏍规嵁璧枫�缁堢偣鍧愭爣鏌ヨ鍏氦鎹箻璺嚎
 		        trans.search([
 				              {keyword: from},
 				              {keyword: to}
@@ -53,7 +53,7 @@ var MapApp = function(contentId,panelId,initZoom){
 		    });
 		
 	}
-	//驾车导航
+	//椹捐溅瀵艰埅
 	function drive(from,to) {
 		loadToggle();
 		clearMap();
@@ -61,8 +61,8 @@ var MapApp = function(contentId,panelId,initZoom){
 	        var driving = new AMap.Driving({
 	        	map: this.map,
 				panel: panelId
-	        }); //构造路线导航类
-	        // 根据起终点坐标规划步行路线
+	        }); //鏋勯�璺嚎瀵艰埅绫�
+	        // 鏍规嵁璧风粓鐐瑰潗鏍囪鍒掓琛岃矾绾�
 	        driving.search([
 				              {keyword: from,city:MapUtil.getCity()},
 				              {keyword: to,city:MapUtil.getCity()}
@@ -72,13 +72,13 @@ var MapApp = function(contentId,panelId,initZoom){
 				});
 	    });
 	}
-	//清空地图
+	//娓呯┖鍦板浘
 	function clearMap(){
 	    this.map.clearMap();
 	}
 	function commonError(status){
     	if(status==0||status=='error'){
-    		info("未找到相关路线，请输入其他关键字！如：北京市地震局(公交站),亦庄文化园(地铁站)");
+    		info("未找到关键字相关地点，请重新输入！");
     	}
 	}
 	return {

@@ -36,7 +36,7 @@
 	</div>
 </div>
 <script>
-	var mapApp = new MapApp("mapContent","navContent",17);
+	var mapApp = new MapApp("mapContent","navContent",14);
 	jQuery(document).ready(function() {		
 		App.setPage("forms");  //Set current page
 		App.init(); //Initialise plugins and elements
